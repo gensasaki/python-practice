@@ -1,4 +1,5 @@
 # list and tuple
+# - slice
 # collection type
 # dictionary type
 
@@ -23,3 +24,13 @@ for i, score in enumerate(scores):
 
 print(list((1, 3, 5))) # convert touple to list
 print(tuple([1, 3, 5])) # convert list to tuple
+
+# slice
+num_arr = [40, 50, 60, 70, 80, 90]
+print(num_arr[1:4]) # 50, 60, 70
+print(num_arr[:2]) # 40, 50
+print(num_arr[3:]) # 70, 80, 90
+print(num_arr[-3:]) # 70, 80, 90
+
+s = "hello"
+print(s[1:4])
