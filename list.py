@@ -34,7 +34,6 @@ print(num_arr[-3:]) # 70, 80, 90
 
 s = "hello"
 print(s[1:4])
-<<<<<<< HEAD
 
 # set not allow same value
 # a = set([5, 6, 7, 8])
